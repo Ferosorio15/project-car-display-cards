@@ -1,16 +1,16 @@
-body{
+body {
     font-family: 'Lato', sans-serif;
     background: url(../assets/pattern.png);
     background-size: 500px;
 }
 
-*{
+* { 
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.card{
+.card {
     max-width: 600px;
     margin: 20px auto;
     padding: 20px;
@@ -18,7 +18,7 @@ body{
     box-shadow: 5px 10px 15px rgba(0,0,0, 0.3) ;
 }
 
-.card h1{
+.card h1 {
     margin-bottom: 20px;
     font-weight: 800;
 }
@@ -30,47 +30,47 @@ body{
 
 /* economy */
 
-.card-economy h1{
+.card-economy h1 {
     color: orange;
 }
-.card-economy a{
+.card-economy a {
     background-color: rgb(216, 142, 4);
 }
 
-.card-economy a:hover{
+.card-economy a:hover {
     background-color:  rgb(184, 122, 8);
 }
-.card-economy a:active{
+.card-economy a:active {
     background-color:  rgb(211, 143, 17);
 }
 
 /* luxury */
 
-.card-luxury h1{
+.card-luxury h1 {
     color: blue;
 }
-.card-luxury a{
+.card-luxury a {
     background-color: magenta;
 }
-.card-luxury a:hover{
+.card-luxury a:hover {
     background-color: rgb(231, 10, 231);
 }
-.card-luxury a:active{
+.card-luxury a:active {
     background-color: rgb(207, 17, 207);
 }
 
 /* family */
 
-.card-family h1{
+.card-family h1 {
     color: green;
 }
-.card-family a{
+.card-family a {
     background-color: chocolate;
 }
-.card-family a:hover{
+.card-family a:hover {
     background-color: rgb(195, 95, 24);
 }
-.card-family a:active{
+.card-family a:active {
     background-color: rgb(161, 78, 20);
 }
 
@@ -85,18 +85,17 @@ a {
     border-radius: 5px;
     font-size: 18px;
     margin-top: 5px;
-
 }
 
-.card-economy{
+.card-economy {
     background:#ffff url(../assets/economic-car.png) no-repeat right;
     background-size: 200px;
 }
-.card-luxury{
+.card-luxury {
     background:#ffff url(../assets/luxury-car.png) no-repeat right;
     background-size: 200px;
 }
-.card-family{
+.card-family {
     background:#ffff url(../assets/family-car.png) no-repeat right;
     background-size: 200px;
 }
